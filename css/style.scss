@@ -2,9 +2,20 @@ $white: #ffffff;
 $black: #000000;
 $primary1: #0355cc;
 // $primary2:#e31414;
-$primary2:#ff8a1d;
+$primary2: #ff8a1d;
 
 // import fonts
+
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+  font-display: swap;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap');
 
 @mixin main-font {
